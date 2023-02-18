@@ -9,9 +9,16 @@ import SwiftUI
 
 @main
 struct TwitterCloneApp: App {
+    
+    @State private var isLaunched = false
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if isLaunched {
+                TwitterHomePageView()
+            }else{
+                LaunchScreen(isLaunched: $isLaunched)
+            }
         }
     }
 }

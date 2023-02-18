@@ -8,17 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		9B70BFB029A129B800206D04 /* TwitterCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B70BFAF29A129B800206D04 /* TwitterCloneApp.swift */; };
-		9B70BFB229A129B800206D04 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B70BFB129A129B800206D04 /* ContentView.swift */; };
 		9B70BFB429A129B900206D04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B70BFB329A129B900206D04 /* Assets.xcassets */; };
 		9B70BFB729A129B900206D04 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B70BFB629A129B900206D04 /* Preview Assets.xcassets */; };
+		9B70BFC029A12A6900206D04 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B70BFBF29A12A6900206D04 /* Tweet.swift */; };
+		9B70BFC429A12BE700206D04 /* TwitterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B70BFC329A12BE700206D04 /* TwitterViewModel.swift */; };
+		9B70BFC629A12C0A00206D04 /* TwitterHomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B70BFC529A12C0A00206D04 /* TwitterHomePageView.swift */; };
+		9B70BFC829A12C3D00206D04 /* TweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B70BFC729A12C3D00206D04 /* TweetView.swift */; };
+		9B70BFCA29A137DA00206D04 /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B70BFC929A137DA00206D04 /* LaunchScreen.swift */; };
+		9B70BFCC29A13C3100206D04 /* TweetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B70BFCB29A13C3100206D04 /* TweetDetailView.swift */; };
+		9B70BFCE29A13E8D00206D04 /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B70BFCD29A13E8D00206D04 /* ShareSheet.swift */; };
+		9B70BFD529A1457E00206D04 /* NavigationBarColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B70BFD429A1457E00206D04 /* NavigationBarColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9B70BFAC29A129B800206D04 /* TwitterClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B70BFAF29A129B800206D04 /* TwitterCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterCloneApp.swift; sourceTree = "<group>"; };
-		9B70BFB129A129B800206D04 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9B70BFB329A129B900206D04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B70BFB629A129B900206D04 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9B70BFBF29A12A6900206D04 /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		9B70BFC329A12BE700206D04 /* TwitterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterViewModel.swift; sourceTree = "<group>"; };
+		9B70BFC529A12C0A00206D04 /* TwitterHomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterHomePageView.swift; sourceTree = "<group>"; };
+		9B70BFC729A12C3D00206D04 /* TweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetView.swift; sourceTree = "<group>"; };
+		9B70BFC929A137DA00206D04 /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
+		9B70BFCB29A13C3100206D04 /* TweetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetDetailView.swift; sourceTree = "<group>"; };
+		9B70BFCD29A13E8D00206D04 /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
+		9B70BFD429A1457E00206D04 /* NavigationBarColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +65,11 @@
 		9B70BFAE29A129B800206D04 /* TwitterClone */ = {
 			isa = PBXGroup;
 			children = (
-				9B70BFAF29A129B800206D04 /* TwitterCloneApp.swift */,
-				9B70BFB129A129B800206D04 /* ContentView.swift */,
+				9B70BFD229A13EC900206D04 /* Main */,
+				9B70BFD329A13ECE00206D04 /* Helper */,
+				9B70BFCF29A13EA500206D04 /* Model */,
+				9B70BFD129A13EB300206D04 /* View */,
+				9B70BFD029A13EAB00206D04 /* ViewModel */,
 				9B70BFB329A129B900206D04 /* Assets.xcassets */,
 				9B70BFB529A129B900206D04 /* Preview Content */,
 			);
@@ -65,6 +82,50 @@
 				9B70BFB629A129B900206D04 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9B70BFCF29A13EA500206D04 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9B70BFBF29A12A6900206D04 /* Tweet.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9B70BFD029A13EAB00206D04 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9B70BFC329A12BE700206D04 /* TwitterViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9B70BFD129A13EB300206D04 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9B70BFC529A12C0A00206D04 /* TwitterHomePageView.swift */,
+				9B70BFC729A12C3D00206D04 /* TweetView.swift */,
+				9B70BFCB29A13C3100206D04 /* TweetDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9B70BFD229A13EC900206D04 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9B70BFC929A137DA00206D04 /* LaunchScreen.swift */,
+				9B70BFAF29A129B800206D04 /* TwitterCloneApp.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		9B70BFD329A13ECE00206D04 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				9B70BFCD29A13E8D00206D04 /* ShareSheet.swift */,
+				9B70BFD429A1457E00206D04 /* NavigationBarColor.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +198,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B70BFB229A129B800206D04 /* ContentView.swift in Sources */,
+				9B70BFC429A12BE700206D04 /* TwitterViewModel.swift in Sources */,
+				9B70BFCC29A13C3100206D04 /* TweetDetailView.swift in Sources */,
+				9B70BFC629A12C0A00206D04 /* TwitterHomePageView.swift in Sources */,
+				9B70BFCA29A137DA00206D04 /* LaunchScreen.swift in Sources */,
+				9B70BFD529A1457E00206D04 /* NavigationBarColor.swift in Sources */,
 				9B70BFB029A129B800206D04 /* TwitterCloneApp.swift in Sources */,
+				9B70BFC829A12C3D00206D04 /* TweetView.swift in Sources */,
+				9B70BFC029A12A6900206D04 /* Tweet.swift in Sources */,
+				9B70BFCE29A13E8D00206D04 /* ShareSheet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +341,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -302,6 +371,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
